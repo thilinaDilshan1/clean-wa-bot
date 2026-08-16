@@ -1,0 +1,26 @@
+{
+  "name": "clean-wa-bot",
+  "version": "1.0.0",
+  "description": "A transparent, auditable WhatsApp bot built on Baileys — no obfuscation, no eval, no remote plugin loading.",
+  "main": "src/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.9",
+    "dotenv": "^16.4.5",
+    "pino": "^9.3.2",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "pino-pretty": "^11.2.2"
+  }
+}
